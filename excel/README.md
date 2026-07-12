@@ -24,7 +24,8 @@ The gaming industry has grown exponentially, making it crucial to understand how
 To optimize analytical performance and maintain data integrity, a clean **Star Schema** was built. The architecture isolates descriptive attributes into structured Dimension tables linked directly to a central Fact table using validated foreign keys.
 
 ### 🗺️ Data Model Schema
-![Star Schema Design](excel/Excel%20Schema.png)
+![Star Schema Design](<img width="1575" height="838" alt="Excel Schema" src="https://github.com/user-attachments/assets/66acfa84-4861-44b7-afe1-f79cbc9c5a79" />
+)
 
 ---
 
