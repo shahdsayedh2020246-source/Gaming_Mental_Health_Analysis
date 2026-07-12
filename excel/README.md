@@ -1,44 +1,65 @@
-📊 Gaming & Mental Health — Excel Analytics & Dashboards
-Welcome to the Excel Component of the Gaming & Mental Health Analytics project. This directory showcases the foundational data processing, statistical cleaning, and the creation of dynamic, interactive dashboards built entirely within Microsoft Excel and Power Query.
+# 🎮 Gaming & Mental Health: End-to-End Data Analysis
 
-📂 Folder Contents
-This folder contains the following core files:
+An end-to-end data analysis project exploring the impact of gaming habits on players' mental and physical health. This project features comprehensive exploratory data analysis (EDA), predictive modeling, a structured relational Star Schema database architecture, and a dynamic interactive Excel Dashboard.
 
-excel file.xlsx: The main working file containing the raw dataset, Power Query transformations, M code logic, and the structured Data Model.
-dashboard 1: The first interactive dashboard focusing on Gaming and Player Demographics.
-dashboard 2: The second dashboard analyzing Health and Sleep metrics.
-dashboard 3: The third dashboard evaluating Addiction risks and Productivity.
-schema.png: An image of the Star Schema data model built in Excel's Power Pivot.
-(Note: The dashboards are presented as interactive views/images within this directory).
+---
 
-⚙️ Methodology & Technical Highlights
-1. Statistical Data Cleaning & Outlier Detection
-To ensure the integrity of the analysis, the dataset was evaluated for outliers using statistical rules. Data points falling outside the normal distribution range (Mean ± 3 Standard Deviations) were identified and handled to prevent skewed insights.
+## 👥 The Team: The Outliers
+* **Members:** Mohamed Bedier, Belal Elkhamisy, Shahd Mohamed, Youssef Talaat, Ebrahim Elnemr
+* **Supervised by:** Dr. Amal Mahmoud
 
-2. Feature Engineering (Power Query & M Code)
-Significant feature engineering was performed to transform raw metrics into business-ready categories:
+---
 
-Spend Categories: Created dynamic classifications (Low, Mid, High, Very High) for players' total spending using custom M code logic based on calculated averages and standard deviations.
-Health & Addiction Metrics: Consolidated multiple binary columns into comprehensive risk indicators (e.g., Physical_Pain index).
-Demographic Groupings: Segmented players into distinct age groups and educational states.
-3. Data Modeling (Power Pivot Star Schema)
-The raw, flat data was normalized and structured into a highly efficient Star Schema within Excel's Data Model:
+## 📌 Project Overview
+The gaming industry has grown exponentially, making it crucial to understand how gaming behaviors correlate with lifestyle, productivity, academic performance, and psychological well-being. This project analyzes player data to uncover key insights regarding gaming addiction risks, physical strain, social life impacts, and financial habits across different demographics.
 
-Created clean dimension tables for Players, Games, Platforms, Sleep State, Addiction, and Physical Status.
-Centralized the event data into a single Fact table.
-Successfully decoupled games and platforms, eliminating many-to-many relationship issues to ensure fast query performance and accurate cross-filtering.
-🗺️ Data Architecture
-Data Model (Star Schema)
-Data Model
+### 🛠️ Tech Stack & Tools Used
+* **Data Cleaning & ETL:** Power Query / Python (Pandas)
+* **Database Design & Modeling:** SQL / Star Schema Relational Data Model
+* **Data Visualization & Analytics:** Microsoft Excel (Advanced Dynamic Dashboards)
 
-📈 Interactive Dashboards Overview
-The analysis is visualized across 3 comprehensive dashboard views, allowing for dynamic filtering by demographics and gaming platforms:
+---
 
-Page 1: Gaming and Player Demographics
-Focuses on user demographics, preferred genres, and spending habits. Gaming Dashboard
+## 📐 Database Architecture & Data Modeling
+To optimize analytical performance and maintain data integrity, a clean **Star Schema** was built. The architecture isolates descriptive attributes into structured Dimension tables linked directly to a central Fact table using validated foreign keys.
 
-Page 2: Health and Sleep Analysis
-Analyzes the physical toll of gaming, correlating gaming hours with sleep disruption frequency and physical pain risks. Health Dashboard
+### 🗺️ Data Model Schema
+![Star Schema Design](excel/Excel_Schema.png)
 
-Page 3: Addiction and Productivity
-Evaluates the psychological impact, measuring addiction risk levels, social isolation scores, and the subsequent effect on academic and professional productivity. Addiction Dashboard
+---
+
+## 📊 Interactive Analytics Dashboards
+The final analytical insights are presented through a fully interactive, multi-view dynamic Excel Dashboard designed with a modern futuristic dark/neon UI. 
+
+### 1️⃣ Player Profile Dashboard
+Focuses on general demographics, total player distribution, playtime across different platforms, financial spending by game genres, and productivity scores.
+![Player Dashboard](excel/Excel_Dashboard_1.jpg)
+
+### 2️⃣ Addiction Risk & Mental Health Dashboard
+Analyzes the deep correlations between gaming addiction levels (Severe, High, Moderate, Low), social isolation scores, face-to-face social hours, and how different emotional/mood states affect overall gaming time.
+![Addiction Dashboard](excel/Excel_Dashboard_2.jpg)
+
+### 3️⃣ Healthcare & Physical Well-being Dashboard
+Tracks physical health indicators including sleep quality against sleep hours, physical pain metrics (such as back and neck strain across platforms), and the relationship between physical exercise and mood stability.
+![Healthcare Dashboard](excel/Excel_Dashboard_3.jpg)
+
+---
+
+## 🔑 Key Insights & Findings
+* **Addiction & Social Life:** Higher gaming addiction risks strongly correlate with increased social isolation scores and a significant drop in face-to-face social hours weekly.
+* **Physical Health Impact:** Mobile and PC players report varying degrees of physical discomfort, with higher daily gaming hours showing direct links to increased physical pain risks and sleep disruptions.
+* **Productivity:** A distinct pattern emerges when comparing daily gaming hours against work/academic productivity scores, highlighting the sweet spot for balanced gaming versus over-indulgence.
+
+---
+
+## 📂 Project Structure
+```text
+├── excel/
+│   ├── Excel Final.xlsx             # Main Excel Workbook with Data Model & Dashboards
+│   ├── Excel_Schema.png             # Star Schema Diagram
+│   ├── Excel_Dashboard_1.jpg        # Player Dashboard Screenshot
+│   ├── Excel_Dashboard_2.jpg        # Addiction Dashboard Screenshot
+│   └── Excel_Dashboard_3.jpg        # Healthcare Dashboard Screenshot
+├── notebooks/
+│   └── Gaming_Mental_Health_Analysis_python.ipynb   # Python Notebook for EDA & Modeling
+└── README.md                        # Project Documentation
