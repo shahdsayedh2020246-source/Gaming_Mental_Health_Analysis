@@ -10,7 +10,7 @@ The goal of this project is to uncover how gaming hours, financial spending, and
 ## 📊 Dashboards Breakdown
 
 ### 1. 👤 Player Dashboard (Demographics & General Stats)
-![Player Dashboard](https://raw.githubusercontent.com/shahdsayedh2020246-source/Gaming_Mental_Health_Analysis/main/Power%20BI/Player%20Dashboard%20Power%20BI.jpg)
+![Player Dashboard](./Player%20Dashboard%20Power%20BI.jpg)
 
 This tab focuses on understanding the player base, their spending habits, and general gaming behavior.
 * **Key Metrics (KPIs):**
