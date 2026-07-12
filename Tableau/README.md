@@ -51,8 +51,8 @@ An interactive, narrative-driven presentation split into **5 data-backed stories
 
 ### 🛑 Story 4: 14.2% Can't Stop
 > **Subtitle:** *For 1 in 7 players, gaming stopped being a hobby.*
-![Story 4](Story%204%20Tableau%20(1).png)
-> * **Key Insight:** Isolates clinical addiction thresholds. Severe addiction risks cause immediate real-world consequences: severe risk profiles spend only **3.2 hours/week face-to-face** with people compared to **10.2 hours** for low-risk individuals, leading to a severe social isolation score of **6.5**. Statistically, once a player crosses the average screen-time threshold, the likelihood of jumping into a **Severe Risk** classification instantly spikes to **61%**.
+![Story 4](Story%204%20Tableau.png)
+> > * **Key Insight:** Isolates clinical addiction thresholds. Severe addiction risks cause immediate real-world consequences: severe risk profiles spend only **3.2 hours/week face-to-face** with people compared to **10.2 hours** for low-risk individuals, leading to a severe social isolation score of **6.5**. Statistically, once a player crosses the average screen-time threshold, the likelihood of jumping into a **Severe Risk** classification instantly spikes to **61%**.
 
 ### 🛣️ Story 5: the Way Out
 > **Subtitle:** *The patterns are clear. Small changes make a big difference.*
