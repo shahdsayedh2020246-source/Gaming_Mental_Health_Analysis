@@ -24,8 +24,7 @@ The gaming industry has grown exponentially, making it crucial to understand how
 To optimize analytical performance and maintain data integrity, a clean **Star Schema** was built. The architecture isolates descriptive attributes into structured Dimension tables linked directly to a central Fact table using validated foreign keys.
 
 ### 🗺️ Data Model Schema
-![Star Schema Design](![Uploading Excel Schema.png…]()
-)
+![Star Schema Design](excel/Excel%20Schema.png)
 
 ---
 
@@ -34,15 +33,15 @@ The final analytical insights are presented through a fully interactive, multi-v
 
 ### 1️⃣ Player Profile Dashboard
 Focuses on general demographics, total player distribution, playtime across different platforms, financial spending by game genres, and productivity scores.
-![Player Dashboard](excel/Excel_Dashboard_1.jpg)
+![Player Dashboard](excel/Excel%20Dashboard%201.png)
 
 ### 2️⃣ Addiction Risk & Mental Health Dashboard
 Analyzes the deep correlations between gaming addiction levels (Severe, High, Moderate, Low), social isolation scores, face-to-face social hours, and how different emotional/mood states affect overall gaming time.
-![Addiction Dashboard](excel/Excel_Dashboard_2.jpg)
+![Addiction Dashboard](excel/Excel%20Dashboard%202.png)
 
 ### 3️⃣ Healthcare & Physical Well-being Dashboard
 Tracks physical health indicators including sleep quality against sleep hours, physical pain metrics (such as back and neck strain across platforms), and the relationship between physical exercise and mood stability.
-![Healthcare Dashboard](excel/Excel_Dashboard_3.jpg)
+![Healthcare Dashboard](excel/Excel%20Dashboard%203.png)
 
 ---
 
@@ -57,10 +56,10 @@ Tracks physical health indicators including sleep quality against sleep hours, p
 ```text
 ├── excel/
 │   ├── Excel Final.xlsx             # Main Excel Workbook with Data Model & Dashboards
-│   ├── Excel_Schema.png             # Star Schema Diagram
-│   ├── Excel_Dashboard_1.jpg        # Player Dashboard Screenshot
-│   ├── Excel_Dashboard_2.jpg        # Addiction Dashboard Screenshot
-│   └── Excel_Dashboard_3.jpg        # Healthcare Dashboard Screenshot
-├── notebooks/
-│   └── Gaming_Mental_Health_Analysis_python.ipynb   # Python Notebook for EDA & Modeling
+│   ├── Excel Schema.png             # Star Schema Diagram
+│   ├── Excel Dashboard 1.png        # Player Dashboard Screenshot
+│   ├── Excel Dashboard 2.png        # Addiction Dashboard Screenshot
+│   └── Excel Dashboard 3.png        # Healthcare Dashboard Screenshot
+├── gaming_mental_health.csv         # Raw Dataset
+├── Gaming_Mental_Health_A...        # Python Notebook for EDA & Modeling
 └── README.md                        # Project Documentation
