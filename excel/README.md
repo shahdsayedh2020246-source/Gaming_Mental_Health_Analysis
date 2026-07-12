@@ -48,8 +48,7 @@ The analytical insights are presented through a fully interactive, multi-view dy
 ### 2️⃣ Addiction Risk & Mental Health Dashboard
 *Analyzes the deep correlations between gaming addiction levels, social isolation, and emotional stability.*
 
-<img src="excel/Excel Dashboard 2.png" alt="Addiction Dashboard" width="100%">
-
+<img src="excel/Excel Dashboard 1.png" width="100%">
 #### 🔍 Deep Insights & Analytics:
 * **Addiction Levels by Age:** The **Young Adult** segment exhibits the highest vulnerability to psychological strain, recording **312 players categorized with Low-to-Moderate addiction risks** and a noticeable surge in severe cases compared to Older Adults. Teenagers follow as the second most vulnerable group.
 * **Social Impact (F2F vs. Isolation):** There is a clear, quantifiable inverse relationship between face-to-face (F2F) social interaction and gaming intensity. On average, the cohort retains **7.7 F2F social hours** against a **3.9 social score**. However, as addiction risk scales from "Low" to "Severe", the average social isolation score spikes dramatically while actual F2F hours drop down.
