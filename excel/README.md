@@ -24,32 +24,50 @@ The gaming industry has grown exponentially, making it crucial to understand how
 To optimize analytical performance and maintain data integrity, a clean **Star Schema** was built. The architecture isolates descriptive attributes into structured Dimension tables linked directly to a central Fact table using validated foreign keys.
 
 ### 🗺️ Data Model Schema
-![Star Schema Design](<img width="1575" height="838" alt="Excel Schema" src="https://github.com/user-attachments/assets/66acfa84-4861-44b7-afe1-f79cbc9c5a79" />
-)
+<img src="excel/Excel Schema.png" alt="Star Schema Design" width="100%">
 
 ---
 
-## 📊 Interactive Analytics Dashboards
-The final analytical insights are presented through a fully interactive, multi-view dynamic Excel Dashboard designed with a modern futuristic dark/neon UI. 
+## 📊 Interactive Analytics Dashboards & Deep Insights
+
+The analytical insights are presented through a fully interactive, multi-view dynamic Excel Dashboard designed with a modern futuristic dark/neon UI. Below is the detailed breakdown of each view:
 
 ### 1️⃣ Player Profile Dashboard
-Focuses on general demographics, total player distribution, playtime across different platforms, financial spending by game genres, and productivity scores.
-![Player Dashboard](excel/Excel%20Dashboard%201.png)
+*Focuses on general demographics, total player distribution, playtime across different games, financial spending, and productivity scores.*
 
-### 2️⃣ Addiction Risk & Mental Health Dashboard
-Analyzes the deep correlations between gaming addiction levels (Severe, High, Moderate, Low), social isolation scores, face-to-face social hours, and how different emotional/mood states affect overall gaming time.
-![Addiction Dashboard](excel/Excel%20Dashboard%202.png)
+<img src="excel/Excel Dashboard 1.png" alt="Player Dashboard" width="100%">
 
-### 3️⃣ Healthcare & Physical Well-being Dashboard
-Tracks physical health indicators including sleep quality against sleep hours, physical pain metrics (such as back and neck strain across platforms), and the relationship between physical exercise and mood stability.
-![Healthcare Dashboard](excel/Excel%20Dashboard%203.png)
+#### 🔍 Deep Insights & Analytics:
+* **Demographics & Volume:** The dataset tracks **1.0k total players** who collectively account for **6.2k daily gaming hours** and a massive total expenditure of **7.2m** across platforms. The gender split shows a heavy male dominance at **66%**, compared to **32% female** players.
+* **Age & Engagement:** The distribution of gaming time by age group is tightly balanced, with **Young Adults leading at 35%**, followed closely by **Teenagers (34%)** and **Adults (31%)**.
+* **Game Popularity by Hours:** *Elden Ring* commands the highest engagement with **369 total hours**, closely followed by *Starcraft II* (**355 hours**) and *Dota 2* (**332 hours**). Mobile titles like *Mobile Legends* and *Fortnite* occupy the lower tier of total hours within this specific cohort.
+* **Financial Spending:** Monetization is highly successful in the **Strategy, MOBA, and MMO genres**, with each pulling in **1.1m** in total spending, while Role-Playing Games (RPGs) follow at **999.5k**.
 
 ---
 
-## 🔑 Key Insights & Findings
-* **Addiction & Social Life:** Higher gaming addiction risks strongly correlate with increased social isolation scores and a significant drop in face-to-face social hours weekly.
-* **Physical Health Impact:** Mobile and PC players report varying degrees of physical discomfort, with higher daily gaming hours showing direct links to increased physical pain risks and sleep disruptions.
-* **Productivity:** A distinct pattern emerges when comparing daily gaming hours against work/academic productivity scores, highlighting the sweet spot for balanced gaming versus over-indulgence.
+### 2️⃣ Addiction Risk & Mental Health Dashboard
+*Analyzes the deep correlations between gaming addiction levels, social isolation, and emotional stability.*
+
+<img src="excel/Excel Dashboard 2.png" alt="Addiction Dashboard" width="100%">
+
+#### 🔍 Deep Insights & Analytics:
+* **Addiction Levels by Age:** The **Young Adult** segment exhibits the highest vulnerability to psychological strain, recording **312 players categorized with Low-to-Moderate addiction risks** and a noticeable surge in severe cases compared to Older Adults. Teenagers follow as the second most vulnerable group.
+* **Social Impact (F2F vs. Isolation):** There is a clear, quantifiable inverse relationship between face-to-face (F2F) social interaction and gaming intensity. On average, the cohort retains **7.7 F2F social hours** against a **3.9 social score**. However, as addiction risk scales from "Low" to "Severe", the average social isolation score spikes dramatically while actual F2F hours drop down.
+* **Mood & Spending Behavior:** Financial expenditure acts as an emotional coping mechanism; total spending shows an upward trajectory, peaking significantly when players experience emotional states like **Anxious, Irritable, and Depressed**.
+* **Emotional Gaming Triggers:** Negative emotional states directly prolong sessions. Players suffering from **Anxiety, Irritability, Restlessness, and Depression** average the maximum limit of **7 hours of gaming time**, using games as an escapism mechanism, whereas "Excited" or "Normal" states account for only **4 hours**.
+
+---
+
+### 3️⃣ Healthcare & Physical Well-being Dashboard
+*Tracks physical health indicators including sleep quality, physical pain metrics, and lifestyle balances.*
+
+<img src="excel/Excel Dashboard 3.png" alt="Healthcare Dashboard" width="100%">
+
+#### 🔍 Deep Insights & Analytics:
+* **Sleep Deprivation:** The average sleep duration across the entire player base sits at a restrictive **6 hours**, mirroring the average **6.15 daily gaming hours**. Sleep quality metrics reveal that a vast majority of heavy gamers report "Insomnia", "Poor", or "Very Poor" sleep cycles, with "Good" sleep being a minority.
+* **Physical Strain & Ergonomics:** A staggering **43% of the analyzed population is at High Risk for Physical Pain** (specifically back and neck strain), with **37% at Moderate Risk**, leaving only 20% with No Risk. 
+* **Platform Strain Comparison:** When evaluating physical discomfort by platform, **Mobile and PC platforms show the highest frequency of physical pain reporting (TRUE)**, exceeding Console and Multi-platform setups due to prolonged static postures and smaller screen focus.
+* **The Exercise/Mood Correlation:** Physical activity acts as a major buffer; data mapping reveals that players with higher **weekly exercise hours (averaging up to 6.9 hours)** maintain significantly lower restlessness and anxiety levels, stabilizing their overall mood state.
 
 ---
 
